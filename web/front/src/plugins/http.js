@@ -1,5 +1,5 @@
 import Vue from 'vue'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:3000/api/v1'
+axios.defaults.baseURL = 'http://124.220.15.217:80/api/v1'
 Vue.prototype.$http = axios

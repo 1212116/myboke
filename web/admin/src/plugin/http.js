@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import axios from 'axios'
 
-const Url = 'http://localhost:3000/api/v1'
+const Url = 'http://124.220.15.217:80/api/v1'
 axios.defaults.baseURL = Url
 
 axios.interceptors.request.use(config => {
